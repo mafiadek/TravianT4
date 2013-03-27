@@ -54,7 +54,7 @@ if($database->getOasisV($d)){
       } else {
         $test = "<span class=\"a arrow disabled\">Found new village</span>";
       }
- 	
+ 	//Error
 		echo ($basearray['fieldtype']==0)? 
 		($village->resarray['f39']==0)? 
 		($basearray['owner'] == $session->uid)?
